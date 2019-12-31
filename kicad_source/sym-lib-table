@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name StepperMotorFeatherWing-rescue)(type Legacy)(uri ${KIPRJMOD}/StepperMotorFeatherWing-rescue.lib)(options "")(descr ""))
+)
