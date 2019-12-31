@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "HighPowerMotorFeatherWing"
+Date "2019-12-31"
+Rev "1.0"
+Comp "generationmake"
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2."
 $EndDescr
 $Comp
 L voltage-regulators:IFX91041EFJ U9
