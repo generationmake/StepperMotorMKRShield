@@ -163,6 +163,52 @@ X ~ 2 0 -100 80 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
+# devices_C_0805
+#
+DEF devices_C_0805 C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "devices_C_0805" 10 -80 50 H V L CNN
+F2 "capacitors:C_0805" 0 -150 50 H I C CNN
+F3 "" 0 0 50 H V C CNN
+$FPLIST
+ C?
+ C_????_*
+ C_????
+ SMD*_c
+ Capacitor*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 75 D 40 40 1 1 P
+X ~ 2 0 -100 80 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# devices_D_Schottky_Small
+#
+DEF devices_D_Schottky_Small D 0 10 N N 1 F N
+F0 "D" -50 80 50 H V L CNN
+F1 "devices_D_Schottky_Small" -280 -80 50 H V L CNN
+F2 "" 0 0 50 V V C CNN
+F3 "" 0 0 50 V V C CNN
+$FPLIST
+ Diode_*
+ D-Pak_TO252AA
+ *SingleDiode
+ *SingleDiode*
+ *_Diode_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 3 0 1 0 -30 -40 -20 -40 -20 -30 N
+P 3 0 1 0 -30 40 -40 40 -40 30 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 F
+X K 1 -100 0 70 R 50 50 1 1 P
+X A 2 100 0 70 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # devices_D_Small
 #
 DEF devices_D_Small D 0 10 N N 1 F N
@@ -421,6 +467,21 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
+# power-supply_+5V
+#
+DEF power-supply_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power-supply_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H V C CNN
+F3 "" 0 0 50 H V C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # power-supply_GND
 #
 DEF power-supply_GND #PWR 0 0 Y Y 1 F P
@@ -466,6 +527,22 @@ X BUO 6 750 100 200 L 50 50 1 1 I
 X EN 7 -750 250 200 R 50 50 1 1 I
 X VS 8 -750 500 200 R 50 50 1 1 I
 X PAD 9 -750 -650 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# voltage-regulators_LT1085
+#
+DEF voltage-regulators_LT1085 U 0 40 Y Y 1 F N
+F0 "U" -400 250 60 H V C CNN
+F1 "voltage-regulators_LT1085" -300 -200 60 H V C CNN
+F2 "SOT_TO:TO-263-3Lead" -50 -300 60 H I C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -450 200 450 -150 0 1 0 N
+X ADJ/GND 1 -650 -50 200 R 50 50 1 1 I
+X OUT 2 650 100 200 L 50 50 1 1 I
+X VIN 3 -650 100 200 R 50 50 1 1 I
+X OUT_PAD 4 650 -50 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

@@ -21,4 +21,12 @@ Text Notes 2300 900  0    60   ~ 0
 Bernhard Mayer
 Text Notes 3350 900  0    60   ~ 0
 initial release
+Text Notes 850  1100 0    60   ~ 0
+1.1
+Text Notes 1350 1100 0    60   ~ 0
+2020-07-03
+Text Notes 2300 1100 0    60   ~ 0
+Bernhard Mayer
+Text Notes 3350 1100 0    60   ~ 0
+added external supply for 5V logic of TMC5130
 $EndSCHEMATC
