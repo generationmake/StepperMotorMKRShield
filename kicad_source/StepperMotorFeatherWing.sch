@@ -109,6 +109,18 @@ F0 "VoltageRegulator" 60
 F1 "VoltageRegulator.sch" 60
 $EndSheet
 $Sheet
+S 7000 1000 1000 500 
+U 5DEC41AF
+F0 "MotorDriver1" 60
+F1 "MotorDriver1.sch" 60
+$EndSheet
+$Sheet
+S 7000 2000 1000 500 
+U 5DE3616E
+F0 "MotorDriver2" 60
+F1 "MotorDriver2.sch" 60
+$EndSheet
+$Sheet
 S 7000 5000 1000 500 
 U 5DE38FE7
 F0 "History" 60
@@ -161,18 +173,6 @@ Text GLabel 2050 4950 0    60   Input ~ 0
 MISO
 NoConn ~ 4000 4650
 NoConn ~ 4000 4550
-$Sheet
-S 7000 2000 1000 500 
-U 5DE3616E
-F0 "MotorDriver2" 60
-F1 "MotorDriver2.sch" 60
-$EndSheet
-$Sheet
-S 7000 1000 1000 500 
-U 5DEC41AF
-F0 "MotorDriver1" 60
-F1 "MotorDriver1.sch" 60
-$EndSheet
 Text GLabel 6150 2500 2    60   Output ~ 0
 CS2
 Text Label 5600 2500 0    60   ~ 0
@@ -477,4 +477,109 @@ Text Label 4100 4950 0    60   ~ 0
 CS2A
 Text Label 4100 5050 0    60   ~ 0
 CS1A
+$Comp
+L devices:oscillator Y1
+U 1 1 5F0010B3
+P 2300 1800
+F 0 "Y1" H 2300 2147 60  0000 C CNN
+F 1 "oscillator" H 2300 2041 60  0000 C CNN
+F 2 "crystals:Crystal_SMD_3.2x2.5mm_4Pad" H 2300 1800 60  0001 C CNN
+F 3 "" H 2300 1800 60  0001 C CNN
+	1    2300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:R_0603 R25
+U 1 1 5F001947
+P 3450 1700
+F 0 "R25" H 3509 1746 50  0000 L CNN
+F 1 "33R" H 3509 1655 50  0000 L CNN
+F 2 "resistors:R_0603" H 3450 1550 50  0001 C CNN
+F 3 "" H 3450 1700 50  0000 C CNN
+	1    3450 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L devices:R_0603 R26
+U 1 1 5F001C97
+P 3900 1850
+F 0 "R26" H 3959 1896 50  0000 L CNN
+F 1 "DNI" H 3959 1805 50  0000 L CNN
+F 2 "resistors:R_0603" H 3900 1700 50  0001 C CNN
+F 3 "" H 3900 1850 50  0000 C CNN
+	1    3900 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L devices:C_0603 C35
+U 1 1 5F0028F4
+P 1500 1800
+F 0 "C35" H 1408 1754 50  0000 R CNN
+F 1 "100nF" H 1408 1845 50  0000 R CNN
+F 2 "capacitors:C_0603" H 1500 1650 50  0001 C CNN
+F 3 "" H 1500 1800 50  0000 C CNN
+	1    1500 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L StepperMotorFeatherWing-rescue:+3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue #PWR095
+U 1 1 5F0037BE
+P 1500 1650
+F 0 "#PWR095" H 1500 1500 50  0001 C CNN
+F 1 "+3V3" V 1515 1778 50  0000 L CNN
+F 2 "" H 1500 1650 50  0000 C CNN
+F 3 "" H 1500 1650 50  0000 C CNN
+	1    1500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L StepperMotorFeatherWing-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue #PWR096
+U 1 1 5F00433B
+P 1500 1950
+F 0 "#PWR096" H 1500 1700 50  0001 C CNN
+F 1 "GND" H 1500 1800 50  0000 C CNN
+F 2 "" H 1500 1950 50  0000 C CNN
+F 3 "" H 1500 1950 50  0000 C CNN
+	1    1500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L StepperMotorFeatherWing-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue #PWR097
+U 1 1 5F00490C
+P 3900 2000
+F 0 "#PWR097" H 3900 1750 50  0001 C CNN
+F 1 "GND" H 3900 1850 50  0000 C CNN
+F 2 "" H 3900 2000 50  0000 C CNN
+F 3 "" H 3900 2000 50  0000 C CNN
+	1    3900 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1750 3900 1700
+Connection ~ 3900 1700
+Wire Wire Line
+	3900 1700 3550 1700
+Wire Wire Line
+	3900 1950 3900 2000
+Wire Wire Line
+	1500 1650 1500 1700
+Wire Wire Line
+	1500 1900 1500 1950
+Wire Wire Line
+	1950 1900 1500 1900
+Connection ~ 1500 1900
+Wire Wire Line
+	1950 1700 1500 1700
+Connection ~ 1500 1700
+NoConn ~ 2650 1900
+Wire Wire Line
+	3900 1700 4750 1700
+Wire Wire Line
+	2650 1700 3350 1700
+Text Label 4000 1700 0    60   ~ 0
+CLK_16M
+Text Label 2700 1700 0    60   ~ 0
+CLK_16M_R
+Text GLabel 4750 1700 2    60   Output ~ 0
+CLK_16M
 $EndSCHEMATC

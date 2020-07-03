@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 6
+Sheet 6 6
 Title "HighPowerMotorFeatherWing"
 Date "2019-12-31"
 Rev "1.0"
@@ -29,4 +29,10 @@ Text Notes 2300 1100 0    60   ~ 0
 Bernhard Mayer
 Text Notes 3350 1100 0    60   ~ 0
 added external supply for 5V logic of TMC5130
+Text Notes 1350 1200 0    60   ~ 0
+2020-07-04
+Text Notes 2300 1200 0    60   ~ 0
+Bernhard Mayer
+Text Notes 3350 1200 0    60   ~ 0
+added clock generator to have common clock for both motor drivers
 $EndSCHEMATC

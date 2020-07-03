@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 4 6
 Title "HighPowerMotorFeatherWing"
 Date "2019-12-31"
 Rev "1.0"
@@ -431,10 +431,6 @@ Wire Wire Line
 	4250 2000 4250 2050
 Wire Wire Line
 	4250 2550 4250 2600
-Wire Wire Line
-	5050 3850 4950 3850
-Wire Wire Line
-	4950 3850 4950 4250
 Connection ~ 4950 4250
 $Comp
 L power-supply:+3V3 #PWR051
@@ -451,9 +447,6 @@ Wire Wire Line
 	5050 4050 4750 4050
 Wire Wire Line
 	5050 3650 4950 3650
-Wire Wire Line
-	4950 3650 4950 3850
-Connection ~ 4950 3850
 $Comp
 L power-supply:GND #PWR054
 U 1 1 5DED18E2
@@ -762,4 +755,12 @@ Wire Wire Line
 	2800 2350 2800 2100
 Text Label 3500 2350 0    60   ~ 0
 U2_VCC
+Text GLabel 4000 3850 0    60   Input ~ 0
+CLK_16M
+Wire Wire Line
+	4950 3650 4950 4250
+Wire Wire Line
+	5050 3850 4000 3850
+Text Label 4200 3850 0    60   ~ 0
+CLK_16M
 $EndSCHEMATC

@@ -357,10 +357,6 @@ F 3 "" H 3900 2050 50  0000 C CNN
 	1    3900 2050
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5050 3850 4950 3850
-Wire Wire Line
-	4950 3850 4950 4250
 Connection ~ 4950 4250
 $Comp
 L power-supply:+3V3 #PWR026
@@ -377,9 +373,6 @@ Wire Wire Line
 	5050 4050 4750 4050
 Wire Wire Line
 	5050 3650 4950 3650
-Wire Wire Line
-	4950 3650 4950 3850
-Connection ~ 4950 3850
 $Comp
 L power-supply:GND #PWR029
 U 1 1 5DF5C3E6
@@ -776,4 +769,12 @@ Wire Wire Line
 Connection ~ 4250 1800
 Wire Wire Line
 	4250 1800 4700 1800
+Wire Wire Line
+	4950 3650 4950 4250
+Text GLabel 4000 3850 0    60   Input ~ 0
+CLK_16M
+Wire Wire Line
+	5050 3850 4000 3850
+Text Label 4200 3850 0    60   ~ 0
+CLK_16M
 $EndSCHEMATC
