@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "HighPowerMotorFeatherWing"
-Date "2019-12-31"
-Rev "1.0"
+Date "2020-07-04"
+Rev "1.1"
 Comp "generationmake"
 Comment1 ""
 Comment2 ""
@@ -35,4 +35,16 @@ Text Notes 2300 1200 0    60   ~ 0
 Bernhard Mayer
 Text Notes 3350 1200 0    60   ~ 0
 added clock generator to have common clock for both motor drivers
+Text Notes 1350 1300 0    60   ~ 0
+2020-07-04
+Text Notes 2300 1300 0    60   ~ 0
+Bernhard Mayer
+Text Notes 3350 1300 0    60   ~ 0
+added LEDs on supply voltage and DIAG outputs of motor drivers
+Text Notes 1350 1400 0    60   ~ 0
+2020-07-04
+Text Notes 2300 1400 0    60   ~ 0
+Bernhard Mayer
+Text Notes 3350 1400 0    60   ~ 0
+added capacitors on current sense resistors
 $EndSCHEMATC

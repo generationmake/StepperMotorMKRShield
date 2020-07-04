@@ -1,218 +1,92 @@
-48756347514885
-crystals
-Crystal_FOX-FE_SMD
-Crystal, Quarz, FE, SMD, Vendor Fox,
-Crystal, Quarz, FE, SMD, Vendor Fox,
+20438982355328
+LEDs
+LED-3MM
+LED 3mm round vertical
+LED  3mm round vertical
 0
 2
 2
-crystals
-Crystal_HC35-U
-Crystal, Quarz, HC35/U,
-Crystal, Quarz, HC35/U,
+LEDs
+LED-5MM
+LED 5mm round vertical
+LED 5mm round vertical
+0
+2
+2
+LEDs
+LED-5MM-3
+3-lead LED 5mm - Lead pitch 100mil (2,54mm)
+LED led 5mm 5MM 100mil 2.54mm 3-lead
 0
 3
 3
-crystals
-Crystal_HC48-U_Vertical
-Crystal, Quarz, HC48/U, vertical, stehend,
-Crystal, Quarz, HC48/U, vertical, stehend,
+LEDs
+LED-8MM
+LED 8mm - Lead pitch 100mil (2,54mm)
+LED led 8mm 8MM 100mil 2.54mm
 0
 2
 2
-crystals
-Crystal_HC49-SD_SMD
-Crystal, Quarz, HC49-SD, SMD,
-Crystal, Quarz, HC49-SD, SMD,
+LEDs
+LED-10MM
+LED 10mm - Lead pitch 100mil (2,54mm)
+LED led 10mm 10MM 100mil 2.54mm
 0
 2
 2
-crystals
-Crystal_HC49-U_Horizontal_Typ1
-Crystal, Quarz, HC49/U, horizontal, liegend, Typ I,
-Crystal, Quarz, HC49/U, horizontal, liegend, Typ I,
+LEDs
+LED-L1T2_LUMILEDS
+http://www.lumileds.com/uploads/438/DS133-pdf
+LUMILEDS LUXEON TX L1T2 LED
+0
+3
+3
+LEDs
+LED-RGB-5MM_Common_Cathode
+5mm common cathode RGB LED
+RGB LED 5mm Common Cathode
+0
+4
+4
+LEDs
+LED-XP-G_CREE
+http://www.cree.com/~/media/Files/Cree/LED%20Components%20and%20Modules/XLamp/Data%20and%20Binning/XLampXPG.pdf
+LED XP-G CREE
+0
+3
+3
+LEDs
+LED_0603
+LED 0603 smd package
+LED led 0603 SMD smd SMT smt smdled SMDLED smtled SMTLED
 0
 2
 2
-crystals
-Crystal_HC49-U_Horizontal_Typ2
-Crystal, Quarz, HC49/U, horizontal, liegend, Typ II,
-Crystal, Quarz, HC49/U, horizontal, liegend, Typ II,
+LEDs
+LED_0805
+LED 0805 smd package
+LED 0805 SMD
+0
+2
+2
+LEDs
+LED_1206
+LED 1206 smd package
+LED1206 SMD
+0
+2
+2
+LEDs
+LED_RGB_Getian_GT-P6PRGB4303
+https://www.gme.sk/img/cache/doc/518/177/vykonova-led-getian-gt-p6prgb4303-datasheet-1.pdf
+LED RGB 
+0
+7
+7
+LEDs
+LED_RGB_PLLC-6
+RGB LED PLLC-6
+RGB LED PLLC-6
 0
 6
-3
-crystals
-Crystal_HC49-U_Vertical
-Crystal, Quarz, HC49/U, vertical, stehend,
-Crystal, Quarz, HC49/U, vertical, stehend,
-0
-2
-2
-crystals
-Crystal_HC49-U_Vertical_3Pin
-Crystal, Quarz, HC49/U, vertical, stehend, 3 Pin,
-Crystal, Quarz, HC49/U, vertical, stehend, 3 Pin,
-0
-3
-3
-crystals
-Crystal_HC50-U_Vertical
-Crystal, Quarz, HC50/U, vertical, stehend,
-Crystal, Quarz, HC50/U, vertical, stehend,
-0
-2
-2
-crystals
-Crystal_HC51-U_Vertical
-Crystal, Quarz, HC51/U, vertical, stehend,
-Crystal, Quarz, HC51/U, vertical, stehend,
-0
-2
-2
-crystals
-Crystal_HC52-U_Vertical
-Crystal, Quarz, HC52/U, vertical, stehend,
-Crystal, Quarz, HC52/U, vertical, stehend,
-0
-2
-2
-crystals
-Crystal_HC52-U_Vertical_3Pin
-Crystal, Quarz, HC52/U, vertical, stehend, 3 Pin,
-Crystal, Quarz, HC52/U, vertical, stehend, 3 Pin,
-0
-3
-3
-crystals
-Crystal_Round_Horizontal_2mm
-Crystal, Quarz, Rundgehaeuse, round, horizontal, liegend, Uhrenquarz, Diam. 2mm,
-Crystal, Quarz, Rundgehaeuse, round, horizontal, liegend, Uhrenquarz, Diam. 2mm,
-0
-2
-2
-crystals
-Crystal_Round_Horizontal_3mm
-Crystal, Quarz, Rundgehaeuse, round, horizontal, liegend, Uhrenquarz, Diam. 3mm,
-Crystal, Quarz, Rundgehaeuse, round, horizontal, liegend, Uhrenquarz, Diam. 3mm,
-0
-2
-2
-crystals
-Crystal_Round_Horizontal_3mm_BigPad
-Crystal, Quarz, Rundgehaeuse, round, horizontal, liegend, Uhrenquarz, Diam. 3mm, big pad,
-Crystal, Quarz, Rundgehaeuse, round, horizontal, liegend, Uhrenquarz, Diam. 3mm, big pad,
-0
-2
-2
-crystals
-Crystal_Round_Vertical_2mm
-Crystal, Quarz, Rundgehaeuse, round, NC26LF, vertical, stehend, Uhrenquarz, Diam. 2mm,
-Crystal, Quarz, Rundgehaeuse, round, NC26LF, vertical, stehend, Uhrenquarz, Diam. 2mm,
-0
-2
-2
-crystals
-Crystal_Round_Vertical_3mm
-Crystal, Quarz, Rundgehaeuse, round, vertical, stehend, Uhrenquarz, Diam. 3mm,
-Crystal, Quarz, Rundgehaeuse, round, vertical, stehend, Uhrenquarz, Diam. 3mm,
-0
-2
-2
-crystals
-Crystal_Round_Vertical_3mm_BigPad
-Crystal, Quarz, Rundgehaeuse, round, vertical, stehend, Uhrenquarz, Diam. 3mm, big pad,
-Crystal, Quarz, Rundgehaeuse, round, vertical, stehend, Uhrenquarz, Diam. 3mm, big pad,
-0
-2
-2
-crystals
-Crystal_SMD_3.2x2.5mm_4Pad
-
-
-0
-4
-4
-crystals
-Crystal_SMD_5x3.2mm_4Pad
-
-
-0
-4
-4
-crystals
-Crystal_SMD_0603_2Pads_obsolete
-Crystal, Quarz, SMD, 0603, 2 Pads, Obsolete!, NOT for new designs!,
-Crystal, Quarz, SMD, 0603, 2 Pads, Obsolete!, NOT for new designs!,
-0
-2
-2
-crystals
-Crystal_SMD_0603_4Pads
-Crystal, Quarz, SMD, 0603, 4 Pads,
-Crystal, Quarz, SMD, 0603, 4 Pads,
-0
-4
-4
-crystals
-Crystal_Watch
-
-
-0
-2
-2
-crystals
-HC-18UH
-Quartz boitier HC-18 horizontal
-QUARTZ DEV
-0
-2
-2
-crystals
-HC-18UV
-Quartz boitier HC-18U vertical
-QUARTZ DEV
-0
-2
-2
-crystals
-HC-33UH
-Quartz boitier HC-33U Horizontal
-QUARTZ DEV
-0
-2
-2
-crystals
-HC-33UV
-Quartz boitier HC-33U Vertical
-QUARTZ DEV
-0
-2
-2
-crystals
-HC-49V
-Quartz boitier HC-49 Vertical
-QUARTZ DEV
-0
-2
-2
-crystals
-Q_49U3HMS
-
-
-0
-2
-2
-crystals
-Resonator_7.2x3mm
-Murata CSTCC8M00G53-R0; 8MHz resonator, SMD, 0.5+0.3%; Farnell (Element 14) #1170435
-resonator
-0
-3
-3
-crystals
-crystal_FA238-TSX3225
-crystal Epson Toyocom FA-238 and TSX-3225 series
-
-0
-4
-3
+6
