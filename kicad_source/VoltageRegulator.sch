@@ -1218,4 +1218,6 @@ F 3 "" H 7850 1600 50  0000 C CNN
 	1    7850 1600
 	1    0    0    -1  
 $EndComp
+Text Notes 4950 1200 0    60   ~ 0
+external supply for stepper driver
 $EndSCHEMATC

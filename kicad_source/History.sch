@@ -47,4 +47,10 @@ Text Notes 2300 1400 0    60   ~ 0
 Bernhard Mayer
 Text Notes 3350 1400 0    60   ~ 0
 added capacitors on current sense resistors
+Text Notes 1350 1500 0    60   ~ 0
+2020-07-05
+Text Notes 2300 1500 0    60   ~ 0
+Bernhard Mayer
+Text Notes 3350 1500 0    60   ~ 0
+added digital temperature sensor LM75 (U4)
 $EndSCHEMATC

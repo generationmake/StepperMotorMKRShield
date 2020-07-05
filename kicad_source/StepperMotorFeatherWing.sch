@@ -84,7 +84,7 @@ I2C_SCL
 Text Label 4100 5250 0    60   ~ 0
 I2C_SDA
 $Sheet
-S 7000 3000 1000 500 
+S 9900 2850 1000 500 
 U 5DE3661B
 F0 "Measurement" 60
 F1 "Measurement.sch" 60
@@ -103,25 +103,25 @@ Wire Wire Line
 	2700 4050 2700 5350
 NoConn ~ 2800 5250
 $Sheet
-S 7000 4000 1000 500 
+S 9900 3850 1000 500 
 U 5DE38154
 F0 "VoltageRegulator" 60
 F1 "VoltageRegulator.sch" 60
 $EndSheet
 $Sheet
-S 7000 1000 1000 500 
+S 9900 850  1000 500 
 U 5DEC41AF
 F0 "MotorDriver1" 60
 F1 "MotorDriver1.sch" 60
 $EndSheet
 $Sheet
-S 7000 2000 1000 500 
+S 9900 1850 1000 500 
 U 5DE3616E
 F0 "MotorDriver2" 60
 F1 "MotorDriver2.sch" 60
 $EndSheet
 $Sheet
-S 7000 5000 1000 500 
+S 9900 4850 1000 500 
 U 5DE38FE7
 F0 "History" 60
 F1 "History.sch" 60
