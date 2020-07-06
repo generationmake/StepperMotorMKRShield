@@ -231,8 +231,8 @@ L StepperMotorFeatherWing-rescue:+3V3-power-supply-MKRHMIShield-rescue-MKRHMIShi
 U 1 1 5F02006F
 P 7600 3200
 AR Path="/5F02006F" Ref="#PWR?"  Part="1" 
-AR Path="/5DE3661B/5F02006F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7600 3050 50  0001 C CNN
+AR Path="/5DE3661B/5F02006F" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 7600 3050 50  0001 C CNN
 F 1 "+3V3" V 7615 3328 50  0000 L CNN
 F 2 "" H 7600 3200 50  0000 C CNN
 F 3 "" H 7600 3200 50  0000 C CNN
@@ -244,8 +244,8 @@ L StepperMotorFeatherWing-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-M
 U 1 1 5F020075
 P 7600 3600
 AR Path="/5F020075" Ref="#PWR?"  Part="1" 
-AR Path="/5DE3661B/5F020075" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7600 3350 50  0001 C CNN
+AR Path="/5DE3661B/5F020075" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 7600 3350 50  0001 C CNN
 F 1 "GND" H 7600 3450 50  0000 C CNN
 F 2 "" H 7600 3600 50  0000 C CNN
 F 3 "" H 7600 3600 50  0000 C CNN
@@ -258,8 +258,8 @@ L StepperMotorFeatherWing-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-M
 U 1 1 5F02007C
 P 6800 3700
 AR Path="/5F02007C" Ref="#PWR?"  Part="1" 
-AR Path="/5DE3661B/5F02007C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6800 3450 50  0001 C CNN
+AR Path="/5DE3661B/5F02007C" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 6800 3450 50  0001 C CNN
 F 1 "GND" H 6800 3550 50  0000 C CNN
 F 2 "" H 6800 3700 50  0000 C CNN
 F 3 "" H 6800 3700 50  0000 C CNN

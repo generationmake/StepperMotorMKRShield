@@ -53,4 +53,10 @@ Text Notes 2300 1500 0    60   ~ 0
 Bernhard Mayer
 Text Notes 3350 1500 0    60   ~ 0
 added digital temperature sensor LM75 (U4)
+Text Notes 1350 1600 0    60   ~ 0
+2020-07-05
+Text Notes 2300 1600 0    60   ~ 0
+Bernhard Mayer
+Text Notes 3350 1600 0    60   ~ 0
+changed connector for encoder to JST SH
 $EndSCHEMATC
