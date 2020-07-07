@@ -1,204 +1,162 @@
-45574084844672
-connectors_JST_SH
-Connectors_JST_BM02B-SRSS-TB
-JST SH series connector, BM02B-SRSS-TB
-connector jst sh
+36207519900627
+labels
+4-Layer_1
+4 Layer Label
+Label
 0
-4
-2
-connectors_JST_SH
-Connectors_JST_BM03B-SRSS-TB
-JST SH series connector, BM03B-SRSS-TB
-connector jst sh
 0
-5
-3
-connectors_JST_SH
-Connectors_JST_BM04B-SRSS-TB
-JST SH series connector, BM04B-SRSS-TB
-connector jst sh
 0
-6
-4
-connectors_JST_SH
-Connectors_JST_BM05B-SRSS-TB
-JST SH series connector, BM05B-SRSS-TB
-connector jst sh
+labels
+4-Layer_1_Mask
+4 Layer Label
+Label
 0
-7
-5
-connectors_JST_SH
-Connectors_JST_BM06B-SRSS-TB
-JST SH series connector, BM06B-SRSS-TB
-connector jst sh
 0
-8
-6
-connectors_JST_SH
-Connectors_JST_BM07B-SRSS-TB
-JST SH series connector, BM07B-SRSS-TB
-connector jst sh
 0
-9
-7
-connectors_JST_SH
-Connectors_JST_BM08B-SRSS-TB
-JST SH series connector, BM08B-SRSS-TB
-connector jst sh
+labels
+4-Layer_2
+4 Layer Label
+Label
 0
-10
-8
-connectors_JST_SH
-Connectors_JST_BM09B-SRSS-TB
-JST SH series connector, BM09B-SRSS-TB
-connector jst sh
 0
-11
-9
-connectors_JST_SH
-Connectors_JST_BM10B-SRSS-TB
-JST SH series connector, BM10B-SRSS-TB
-connector jst sh
 0
-12
-10
-connectors_JST_SH
-Connectors_JST_BM11B-SRSS-TB
-JST SH series connector, BM11B-SRSS-TB
-connector jst sh
+labels
+4-Layer_3
+4 Layer Label
+Label
 0
-13
-11
-connectors_JST_SH
-Connectors_JST_BM12B-SRSS-TB
-JST SH series connector, BM12B-SRSS-TB
-connector jst sh
 0
-14
-12
-connectors_JST_SH
-Connectors_JST_BM13B-SRSS-TB
-JST SH series connector, BM13B-SRSS-TB
-connector jst sh
 0
-15
-13
-connectors_JST_SH
-Connectors_JST_BM14B-SRSS-TB
-JST SH series connector, BM14B-SRSS-TB
-connector jst sh
+labels
+4-Layer_4
+4 Layer Label
+Label
 0
-16
-14
-connectors_JST_SH
-Connectors_JST_BM15B-SRSS-TB
-JST SH series connector, BM15B-SRSS-TB
-connector jst sh
 0
-17
-15
-connectors_JST_SH
-Connectors_JST_SM02B-SRSS-TB
-JST SH series connector, SM02B-SRSS-TB
-connector jst sh
 0
-4
-2
-connectors_JST_SH
-Connectors_JST_SM03B-SRSS-TB
-JST SH series connector, SM03B-SRSS-TB
-connector jst sh
+labels
+4-Layer_4_Mask
+4 Layer Label
+Label
 0
-5
-3
-connectors_JST_SH
-Connectors_JST_SM04B-SRSS-TB
-JST SH series connector, SM04B-SRSS-TB
-connector jst sh
 0
-6
-4
-connectors_JST_SH
-Connectors_JST_SM05B-SRSS-TB
-JST SH series connector, SM05B-SRSS-TB
-connector jst sh
 0
-7
-5
-connectors_JST_SH
-Connectors_JST_SM06B-SRSS-TB
-JST SH series connector, SM06B-SRSS-TB
-connector jst sh
+labels
+107-systems_logo
+
+
 0
-8
-6
-connectors_JST_SH
-Connectors_JST_SM07B-SRSS-TB
-JST SH series connector, SM07B-SRSS-TB
-connector jst sh
 0
-9
-7
-connectors_JST_SH
-Connectors_JST_SM08B-SRSS-TB
-JST SH series connector, SM08B-SRSS-TB
-connector jst sh
 0
-10
-8
-connectors_JST_SH
-Connectors_JST_SM09B-SRSS-TB
-JST SH series connector, SM09B-SRSS-TB
-connector jst sh
+labels
+107-systems_logo_big
+
+
 0
-11
-9
-connectors_JST_SH
-Connectors_JST_SM10B-SRSS-TB
-JST SH series connector, SM10B-SRSS-TB
-connector jst sh
 0
-12
-10
-connectors_JST_SH
-Connectors_JST_SM11B-SRSS-TB
-JST SH series connector, SM11B-SRSS-TB
-connector jst sh
 0
-13
-11
-connectors_JST_SH
-Connectors_JST_SM12B-SRSS-TB
-JST SH series connector, SM12B-SRSS-TB
-connector jst sh
+labels
+Bot
+Label Bottom
+Label Bot Bottom
 0
-14
-12
-connectors_JST_SH
-Connectors_JST_SM13B-SRSS-TB
-JST SH series connector, SM13B-SRSS-TB
-connector jst sh
 0
-15
-13
-connectors_JST_SH
-Connectors_JST_SM14B-SRSS-TB
-JST SH series connector, SM14B-SRSS-TB
-connector jst sh
 0
-16
-14
-connectors_JST_SH
-Connectors_JST_SM15B-SRSS-TB
-JST SH series connector, SM15B-SRSS-TB
-connector jst sh
+labels
+Bot_Mask
+Label Bottom
+Label Bot Bottom
 0
-17
-15
-connectors_JST_SH
-Connectors_JST_SM20B-SRSS-TB
-JST SH series connector, SM20B-SRSS-TB
-connector jst sh
 0
-22
-20
+0
+labels
+Top
+Top Label
+Label Top
+0
+0
+0
+labels
+Top_Mask
+Top Label
+Label Top
+0
+0
+0
+labels
+Urschl2016
+Urschl 2016 Label
+Label
+0
+0
+0
+labels
+bUFFR
+
+
+0
+0
+0
+labels
+bUFFR_Mask
+
+
+0
+0
+0
+labels
+generationmake_logo
+
+
+0
+0
+0
+labels
+generationmake_small_silk
+
+
+0
+0
+0
+labels
+generationmake_small_solder
+
+
+0
+0
+0
+labels
+jecc_logo
+Jecc Logo klein
+Jecc logo
+0
+0
+0
+labels
+jecc_logo_7.2x2.2
+Label
+jecc Logo
+0
+0
+0
+labels
+jecc_logo_7.2x2.2_Mask
+Label
+jecc Logo
+0
+0
+0
+labels
+snowfox_logo
+
+
+0
+0
+0
+labels
+snowfox_qrcode_logo
+
+
+0
+0
+0

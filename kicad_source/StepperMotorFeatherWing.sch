@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title "HighPowerMotorFeatherWing"
-Date "2020-07-04"
+Date "2020-07-08"
 Rev "1.1"
 Comp "generationmake"
 Comment1 ""
@@ -67,10 +67,6 @@ Wire Wire Line
 Wire Wire Line
 	2050 4150 2800 4150
 NoConn ~ 2800 3950
-NoConn ~ 2800 4250
-NoConn ~ 2800 4350
-NoConn ~ 2800 4450
-NoConn ~ 2800 4650
 NoConn ~ 4000 4350
 NoConn ~ 4000 4150
 Text Label 2100 4550 0    60   ~ 0
@@ -101,7 +97,6 @@ Text GLabel 2050 4150 0    60   Input ~ 0
 VIN_MEAS
 Wire Wire Line
 	2700 4050 2700 5350
-NoConn ~ 2800 5250
 $Sheet
 S 9900 3850 1000 500 
 U 5DE38154
@@ -128,7 +123,6 @@ F1 "History.sch" 60
 $EndSheet
 Wire Wire Line
 	2050 4550 2800 4550
-NoConn ~ 4000 4450
 $Comp
 L devices:R_0603 R36
 U 1 1 5DF15047
@@ -171,17 +165,15 @@ Text GLabel 2050 4850 0    60   Output ~ 0
 MOSI
 Text GLabel 2050 4950 0    60   Input ~ 0
 MISO
-NoConn ~ 4000 4650
-NoConn ~ 4000 4550
 Text GLabel 6150 2500 2    60   Output ~ 0
 CS2
 Text Label 5600 2500 0    60   ~ 0
 CS2
 $Comp
-L mechanical-connectors:CONN_01X04 P8
+L mechanical-connectors:CONN_01X04 CN3
 U 1 1 5DFC9702
 P 5100 6300
-F 0 "P8" H 5178 6341 50  0000 L CNN
+F 0 "CN3" H 5178 6341 50  0000 L CNN
 F 1 "CONN_01X04" H 5178 6250 50  0000 L CNN
 F 2 "connectors_JST_SH:Connectors_JST_BM04B-SRSS-TB" H 5100 6300 50  0001 C CNN
 F 3 "" H 5100 6300 50  0000 C CNN
@@ -226,55 +218,6 @@ Text Label 4250 6350 0    60   ~ 0
 I2C_SDA
 Text Label 4250 6450 0    60   ~ 0
 I2C_SCL
-$Comp
-L mechanical-connectors:CONN_01X04 P7
-U 1 1 5DFCD1B4
-P 3400 6300
-F 0 "P7" H 3478 6341 50  0000 L CNN
-F 1 "CONN_01X04" H 3478 6250 50  0000 L CNN
-F 2 "connectors_JST_SH:Connectors_JST_BM04B-SRSS-TB" H 3478 6204 50  0001 L CNN
-F 3 "" H 3400 6300 50  0000 C CNN
-	1    3400 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L StepperMotorFeatherWing-rescue:+3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue #PWR078
-U 1 1 5DFCD1BE
-P 3000 6100
-F 0 "#PWR078" H 3000 5950 50  0001 C CNN
-F 1 "+3V3" V 3015 6228 50  0000 L CNN
-F 2 "" H 3000 6100 50  0000 C CNN
-F 3 "" H 3000 6100 50  0000 C CNN
-	1    3000 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L StepperMotorFeatherWing-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue #PWR081
-U 1 1 5DFCD1C8
-P 3100 6500
-F 0 "#PWR081" H 3100 6250 50  0001 C CNN
-F 1 "GND" H 3100 6350 50  0000 C CNN
-F 2 "" H 3100 6500 50  0000 C CNN
-F 3 "" H 3100 6500 50  0000 C CNN
-	1    3100 6500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 6150 3100 6150
-Wire Wire Line
-	3100 6150 3100 6500
-Wire Wire Line
-	3200 6250 3000 6250
-Wire Wire Line
-	3000 6250 3000 6100
-Wire Wire Line
-	2450 6350 3200 6350
-Wire Wire Line
-	2450 6450 3200 6450
-Text Label 2550 6350 0    60   ~ 0
-SER_RX
-Text Label 2550 6450 0    60   ~ 0
-SER_TX
 Wire Wire Line
 	2200 5050 2800 5050
 Wire Wire Line
@@ -284,10 +227,10 @@ SER_RX
 Text Label 2300 5150 0    60   ~ 0
 SER_TX
 $Comp
-L mechanical-connectors:CONN_01X04 P10
+L mechanical-connectors:CONN_01X04 CN4
 U 1 1 5DF94AD6
 P 5100 7350
-F 0 "P10" H 5178 7391 50  0000 L CNN
+F 0 "CN4" H 5178 7391 50  0000 L CNN
 F 1 "CONN_01X04" H 5178 7300 50  0000 L CNN
 F 2 "pin_headers:Pin_Header_Straight_1x04" H 5100 7350 50  0001 C CNN
 F 3 "" H 5100 7350 50  0000 C CNN
@@ -332,57 +275,6 @@ Text Label 4250 7400 0    60   ~ 0
 I2C_SDA
 Text Label 4250 7500 0    60   ~ 0
 I2C_SCL
-$Comp
-L mechanical-connectors:CONN_01X04 P9
-U 1 1 5DF94AFC
-P 3400 7350
-F 0 "P9" H 3478 7391 50  0000 L CNN
-F 1 "CONN_01X04" H 3478 7300 50  0000 L CNN
-F 2 "pin_headers:Pin_Header_Straight_1x04" H 3478 7254 50  0001 L CNN
-F 3 "" H 3400 7350 50  0000 C CNN
-	1    3400 7350
-	1    0    0    -1  
-$EndComp
-$Comp
-L StepperMotorFeatherWing-rescue:+3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue #PWR083
-U 1 1 5DF94B06
-P 3000 7150
-F 0 "#PWR083" H 3000 7000 50  0001 C CNN
-F 1 "+3V3" V 3015 7278 50  0000 L CNN
-F 2 "" H 3000 7150 50  0000 C CNN
-F 3 "" H 3000 7150 50  0000 C CNN
-	1    3000 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L StepperMotorFeatherWing-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue #PWR085
-U 1 1 5DF94B10
-P 3100 7550
-F 0 "#PWR085" H 3100 7300 50  0001 C CNN
-F 1 "GND" H 3100 7400 50  0000 C CNN
-F 2 "" H 3100 7550 50  0000 C CNN
-F 3 "" H 3100 7550 50  0000 C CNN
-	1    3100 7550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 7200 3100 7200
-Wire Wire Line
-	3100 7200 3100 7550
-Wire Wire Line
-	3200 7300 3000 7300
-Wire Wire Line
-	3000 7300 3000 7150
-Wire Wire Line
-	2450 7400 3200 7400
-Wire Wire Line
-	2450 7500 3200 7500
-Text Label 2550 7400 0    60   ~ 0
-SER_RX
-Text Label 2550 7500 0    60   ~ 0
-SER_TX
-Text Notes 1350 6100 0    47   ~ 0
-headers to connect sensors
 $Comp
 L devices:R_0603 R19
 U 1 1 5DFA2A5B
@@ -582,4 +474,173 @@ Text Label 2700 1700 0    60   ~ 0
 CLK_16M_R
 Text GLabel 4750 1700 2    60   Output ~ 0
 CLK_16M
+$Comp
+L mechanical-connectors:CONN_02X08 CN2
+U 1 1 5F051404
+P 6400 3850
+F 0 "CN2" H 6400 4415 50  0000 C CNN
+F 1 "CONN_02X08" H 6400 4324 50  0000 C CNN
+F 2 "pin_headers:Pin_Header_Straight_2x08" H 6400 2650 50  0001 C CNN
+F 3 "" H 6400 2650 50  0000 C CNN
+	1    6400 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 4650 2800 4650
+Wire Wire Line
+	2450 4450 2800 4450
+Wire Wire Line
+	2450 4350 2800 4350
+Wire Wire Line
+	2450 4250 2800 4250
+Text Label 2500 4250 0    60   ~ 0
+A1
+Text Label 2500 4350 0    60   ~ 0
+A2
+Text Label 2500 4450 0    60   ~ 0
+A3
+Text Label 2500 4650 0    60   ~ 0
+A5
+Wire Wire Line
+	2450 5250 2800 5250
+Text Label 2500 5250 0    60   ~ 0
+P16
+Wire Wire Line
+	4250 4650 4000 4650
+Wire Wire Line
+	4250 4550 4000 4550
+Wire Wire Line
+	4250 4450 4000 4450
+Text Label 4050 4650 0    60   ~ 0
+P23
+Text Label 4050 4550 0    60   ~ 0
+P24
+Text Label 4050 4450 0    60   ~ 0
+P25
+Wire Wire Line
+	5750 3500 6150 3500
+Wire Wire Line
+	5750 3600 6150 3600
+Wire Wire Line
+	5750 3700 6150 3700
+Wire Wire Line
+	5750 3800 6150 3800
+Wire Wire Line
+	5750 3900 6150 3900
+Wire Wire Line
+	6650 3900 7100 3900
+Wire Wire Line
+	7100 3800 6650 3800
+Wire Wire Line
+	6650 3700 7100 3700
+Wire Wire Line
+	7100 3600 6650 3600
+Wire Wire Line
+	7100 3500 6650 3500
+Text Label 5850 3500 0    60   ~ 0
+A1
+Text Label 6850 3500 0    60   ~ 0
+A2
+Text Label 5850 3600 0    60   ~ 0
+A3
+Text Label 6850 3600 0    60   ~ 0
+A5
+Text Label 5800 3700 0    60   ~ 0
+SER_RX
+Text Label 6750 3700 0    60   ~ 0
+SER_TX
+Text Label 5850 3800 0    60   ~ 0
+P16
+Text Label 6850 3800 0    60   ~ 0
+P25
+Text Label 5850 3900 0    60   ~ 0
+P24
+Text Label 6850 3900 0    60   ~ 0
+P23
+$Comp
+L StepperMotorFeatherWing-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue #PWR081
+U 1 1 5F086557
+P 6050 4300
+F 0 "#PWR081" H 6050 4050 50  0001 C CNN
+F 1 "GND" H 6050 4150 50  0000 C CNN
+F 2 "" H 6050 4300 50  0000 C CNN
+F 3 "" H 6050 4300 50  0000 C CNN
+	1    6050 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L StepperMotorFeatherWing-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue #PWR083
+U 1 1 5F087252
+P 6750 4300
+F 0 "#PWR083" H 6750 4050 50  0001 C CNN
+F 1 "GND" H 6750 4150 50  0000 C CNN
+F 2 "" H 6750 4300 50  0000 C CNN
+F 3 "" H 6750 4300 50  0000 C CNN
+	1    6750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L StepperMotorFeatherWing-rescue:+3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue #PWR078
+U 1 1 5F088175
+P 5950 4200
+F 0 "#PWR078" H 5950 4050 50  0001 C CNN
+F 1 "+3V3" V 5965 4328 50  0000 L CNN
+F 2 "" H 5950 4200 50  0000 C CNN
+F 3 "" H 5950 4200 50  0000 C CNN
+	1    5950 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power-supply:+5V #PWR085
+U 1 1 5F088ECF
+P 6850 4200
+F 0 "#PWR085" H 6850 4050 50  0001 C CNN
+F 1 "+5V" V 6865 4328 50  0000 L CNN
+F 2 "" H 6850 4200 50  0000 C CNN
+F 3 "" H 6850 4200 50  0000 C CNN
+	1    6850 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 4300 6050 4100
+Wire Wire Line
+	6750 4300 6750 4100
+Wire Wire Line
+	6850 4200 6650 4200
+Wire Wire Line
+	5950 4200 6150 4200
+Wire Wire Line
+	6150 4100 6050 4100
+Wire Wire Line
+	6650 4100 6750 4100
+Wire Wire Line
+	6650 4000 7100 4000
+Wire Wire Line
+	5750 4000 6150 4000
+Text Label 5800 4000 0    60   ~ 0
+I2C_SCL
+Text Label 6750 4000 0    60   ~ 0
+I2C_SDA
+$Comp
+L devices:Label L3
+U 1 1 5F0B3FD2
+P 850 6750
+F 0 "L3" H 1078 6856 60  0000 L CNN
+F 1 "Label" H 1078 6750 60  0000 L CNN
+F 2 "labels:generationmake_logo" H 1078 6644 60  0000 L CNN
+F 3 "" H 850 6750 60  0000 C CNN
+	1    850  6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:Label L4
+U 1 1 5F0B45CF
+P 850 7100
+F 0 "L4" H 1078 7206 60  0000 L CNN
+F 1 "Label" H 1078 7100 60  0000 L CNN
+F 2 "labels:generationmake_small_solder" H 1078 6994 60  0000 L CNN
+F 3 "" H 850 7100 60  0000 C CNN
+	1    850  7100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

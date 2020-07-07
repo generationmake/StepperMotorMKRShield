@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title "HighPowerMotorFeatherWing"
-Date "2020-07-04"
+Date "2020-07-08"
 Rev "1.1"
 Comp "generationmake"
 Comment1 ""

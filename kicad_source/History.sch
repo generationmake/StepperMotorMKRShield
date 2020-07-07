@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "HighPowerMotorFeatherWing"
-Date "2020-07-04"
+Date "2020-07-08"
 Rev "1.1"
 Comp "generationmake"
 Comment1 ""
@@ -59,4 +59,10 @@ Text Notes 2300 1600 0    60   ~ 0
 Bernhard Mayer
 Text Notes 3350 1600 0    60   ~ 0
 changed connector for encoder to JST SH
+Text Notes 1350 1700 0    60   ~ 0
+2020-07-07
+Text Notes 2300 1700 0    60   ~ 0
+Bernhard Mayer
+Text Notes 3350 1700 0    60   ~ 0
+added expansion connector CN2 with all unused pins
 $EndSCHEMATC
