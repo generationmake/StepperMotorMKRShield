@@ -6,6 +6,15 @@ changes
 version 1.0 - 2019-12-31
 * initial release
 
-
+version 1.1 - 2020-07-11
+* added external supply for 5V logic of TMC5130
+* added clock generator to have common clock for both motor drivers
+* added LEDs on supply voltage and DIAG outputs of motor drivers
+* added capacitors on current sense resistors
+* added digital temperature sensor LM75 (U4)
+* changed connector for encoder to JST SH
+* added expansion connector CN2 with all unused pins
+* changed position of mounting holes for heat spreader
+* changed L1 and L2 to Sumida 0624CDMCCDS for better availability
 
 
