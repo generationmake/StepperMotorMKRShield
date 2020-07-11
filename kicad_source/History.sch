@@ -71,4 +71,10 @@ Text Notes 2300 1800 0    60   ~ 0
 Bernhard Mayer
 Text Notes 3350 1800 0    60   ~ 0
 changed position of mounting holes for heat spreader
+Text Notes 1350 1900 0    60   ~ 0
+2020-07-11
+Text Notes 2300 1900 0    60   ~ 0
+Bernhard Mayer
+Text Notes 3350 1900 0    60   ~ 0
+changed L1 and L2 to Sumida 0624CDMCCDS for better availability
 $EndSCHEMATC

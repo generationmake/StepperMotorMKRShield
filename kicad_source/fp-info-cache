@@ -1,162 +1,64 @@
-36207519900627
-labels
-4-Layer_1
-4 Layer Label
-Label
+14184979105728
+L_power
+Sumida-0624CDMCCDS
+
+Sumida SMD Power Inductor 0624CDMCC/DS
 0
-0
-0
-labels
-4-Layer_1_Mask
-4 Layer Label
-Label
-0
-0
-0
-labels
-4-Layer_2
-4 Layer Label
-Label
-0
-0
-0
-labels
-4-Layer_3
-4 Layer Label
-Label
-0
-0
-0
-labels
-4-Layer_4
-4 Layer Label
-Label
-0
-0
-0
-labels
-4-Layer_4_Mask
-4 Layer Label
-Label
-0
-0
-0
-labels
-107-systems_logo
+2
+2
+L_power
+WE-HCF_2818
 
 
 0
+3
+3
+L_power
+WE-LHMI40xx
+
+WE-LHMI SMD Power Inductor
 0
+2
+2
+L_power
+WE-LHMI50xx
+
+WE-LHMI SMD Power Inductor
 0
-labels
-107-systems_logo_big
+2
+2
+L_power
+WE-LHMI70xx
+
+WE-LHMI SMD Power Inductor
+0
+2
+2
+L_power
+WE-LHMI80xx
+
+WE-LHMI SMD Power Inductor
+0
+2
+2
+L_power
+WE-LQFS-4828
 
 
 0
+2
+2
+L_power
+WE-TPC38xx
+WE-TPC38xx
+WE-TPC38xx
 0
+2
+2
+L_power
+WE-TPC48xx
+WE-TPC48xx
+WE-TPC48xx
 0
-labels
-Bot
-Label Bottom
-Label Bot Bottom
-0
-0
-0
-labels
-Bot_Mask
-Label Bottom
-Label Bot Bottom
-0
-0
-0
-labels
-Top
-Top Label
-Label Top
-0
-0
-0
-labels
-Top_Mask
-Top Label
-Label Top
-0
-0
-0
-labels
-Urschl2016
-Urschl 2016 Label
-Label
-0
-0
-0
-labels
-bUFFR
-
-
-0
-0
-0
-labels
-bUFFR_Mask
-
-
-0
-0
-0
-labels
-generationmake_logo
-
-
-0
-0
-0
-labels
-generationmake_small_silk
-
-
-0
-0
-0
-labels
-generationmake_small_solder
-
-
-0
-0
-0
-labels
-jecc_logo
-Jecc Logo klein
-Jecc logo
-0
-0
-0
-labels
-jecc_logo_7.2x2.2
-Label
-jecc Logo
-0
-0
-0
-labels
-jecc_logo_7.2x2.2_Mask
-Label
-jecc Logo
-0
-0
-0
-labels
-snowfox_logo
-
-
-0
-0
-0
-labels
-snowfox_qrcode_logo
-
-
-0
-0
-0
+2
+2
