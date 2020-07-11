@@ -1,17 +1,17 @@
 # StepperMotorFeatherWing
 StepperMotorFeatherWing with Trinamic TMC5130A-TA drivers for two stepper motors compatible with Adafruit Feather 
 
-![StepperMotorFeatherWing rendering](docs/images/StepperMotorFeatherWing_1.0_rendering.png)
+![StepperMotorFeatherWing rendering](docs/images/StepperMotorFeatherWing_rendering.png)
 
 ## PCB
 
 ### Top
 
-![StepperMotorFeatherWing PCB top](docs/images/StepperMotorFeatherWing_1.0_top.png)
+![StepperMotorFeatherWing PCB top](docs/images/StepperMotorFeatherWing_top.png)
 
 ### Bottom
 
-![StepperMotorFeatherWing PCB bot](docs/images/StepperMotorFeatherWing_1.0_bot.png)
+![StepperMotorFeatherWing PCB bot](docs/images/StepperMotorFeatherWing_bot.png)
 
 
 ## License
