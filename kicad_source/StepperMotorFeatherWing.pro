@@ -1,4 +1,4 @@
-update=Di 31 Dez 2019 02:54:47 CET
+update=Sa 11 Jul 2020 23:30:23 CEST
 version=1
 last_client=kicad
 [cvpcb]

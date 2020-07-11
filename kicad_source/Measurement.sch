@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
-Title "HighPowerMotorFeatherWing"
-Date "2019-12-31"
-Rev "1.0"
+Title "StepperMotorFeatherWing"
+Date "2020-07-11"
+Rev "1.1"
 Comp "generationmake"
 Comment1 ""
 Comment2 ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 "This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2."
 $EndDescr
 Text Notes 500  650  0    47   ~ 0
-Copyright generationmake 2019\nsee full project documentation at https://github.com/generationmake/StepperMotorFeatherWing
+Copyright generationmake 2020\nsee full project documentation at https://github.com/generationmake/StepperMotorFeatherWing
 Text Notes 7000 6900 0    43   ~ 0
 You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). \nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY \nQUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2  for applicable conditions
 $Comp
@@ -111,9 +111,9 @@ L mechanical-connectors:WR-TBL_691313710002 P?
 U 1 1 5DFB2102
 P 3750 4850
 AR Path="/5DE3616E/5DFB2102" Ref="P?"  Part="1" 
-AR Path="/5DE3661B/5DFB2102" Ref="P1"  Part="1" 
-F 0 "P1" H 3828 4891 50  0000 L CNN
-F 1 "WR-TBL_691322310002" H 3828 4800 50  0000 L CNN
+AR Path="/5DE3661B/5DFB2102" Ref="CN5"  Part="1" 
+F 0 "CN5" H 3828 4891 50  0000 L CNN
+F 1 "691322310002" H 3828 4800 50  0000 L CNN
 F 2 "CON_wuerth:WR-TBL_691322310002" H 3650 4900 50  0001 C CNN
 F 3 "" H 3750 4850 50  0000 C CNN
 	1    3750 4850
@@ -200,4 +200,112 @@ EM_STOP
 Wire Wire Line
 	4950 4800 4850 4800
 Connection ~ 4850 4800
+$Comp
+L IC_sensor:LM75 U?
+U 1 1 5F020063
+P 7150 3450
+AR Path="/5F020063" Ref="U?"  Part="1" 
+AR Path="/5DE3661B/5F020063" Ref="U4"  Part="1" 
+F 0 "U4" H 7150 3897 60  0000 C CNN
+F 1 "LM75BD" H 7150 3791 60  0000 C CNN
+F 2 "SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 7150 3450 60  0001 C CNN
+F 3 "" H 7150 3450 60  0001 C CNN
+	1    7150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L devices:C_0603 C?
+U 1 1 5F020069
+P 7600 3400
+AR Path="/5F020069" Ref="C?"  Part="1" 
+AR Path="/5DE3661B/5F020069" Ref="C40"  Part="1" 
+F 0 "C40" H 7508 3354 50  0000 R CNN
+F 1 "100nF" H 7508 3445 50  0000 R CNN
+F 2 "capacitors:C_0603" H 7600 3250 50  0001 C CNN
+F 3 "" H 7600 3400 50  0000 C CNN
+	1    7600 3400
+	-1   0    0    1   
+$EndComp
+$Comp
+L StepperMotorFeatherWing-rescue:+3V3-power-supply-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue #PWR?
+U 1 1 5F02006F
+P 7600 3200
+AR Path="/5F02006F" Ref="#PWR?"  Part="1" 
+AR Path="/5DE3661B/5F02006F" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 7600 3050 50  0001 C CNN
+F 1 "+3V3" V 7615 3328 50  0000 L CNN
+F 2 "" H 7600 3200 50  0000 C CNN
+F 3 "" H 7600 3200 50  0000 C CNN
+	1    7600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L StepperMotorFeatherWing-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue #PWR?
+U 1 1 5F020075
+P 7600 3600
+AR Path="/5F020075" Ref="#PWR?"  Part="1" 
+AR Path="/5DE3661B/5F020075" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 7600 3350 50  0001 C CNN
+F 1 "GND" H 7600 3450 50  0000 C CNN
+F 2 "" H 7600 3600 50  0000 C CNN
+F 3 "" H 7600 3600 50  0000 C CNN
+	1    7600 3600
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7450 3650
+$Comp
+L StepperMotorFeatherWing-rescue:GND-ArduHMIShield-rescue-ArduHMIShield-rescue-MKRHMIShield-rescue-MKRHMIShield-rescue-HMIFeatherWing-rescue-HighPowerMotorFeatherWing-rescue #PWR?
+U 1 1 5F02007C
+P 6800 3700
+AR Path="/5F02007C" Ref="#PWR?"  Part="1" 
+AR Path="/5DE3661B/5F02007C" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 6800 3450 50  0001 C CNN
+F 1 "GND" H 6800 3550 50  0000 C CNN
+F 2 "" H 6800 3700 50  0000 C CNN
+F 3 "" H 6800 3700 50  0000 C CNN
+	1    6800 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 3550 6850 3550
+Wire Wire Line
+	6100 3650 6850 3650
+Text Label 6200 3550 0    60   ~ 0
+I2C_SDA
+Text Label 6200 3650 0    60   ~ 0
+I2C_SCL
+Wire Wire Line
+	6850 3250 6800 3250
+Wire Wire Line
+	6800 3250 6800 3350
+Wire Wire Line
+	6850 3450 6800 3450
+Connection ~ 6800 3450
+Wire Wire Line
+	6800 3450 6800 3700
+Wire Wire Line
+	6850 3350 6800 3350
+Connection ~ 6800 3350
+Wire Wire Line
+	6800 3350 6800 3450
+Wire Wire Line
+	7600 3500 7600 3550
+Wire Wire Line
+	7600 3300 7600 3250
+Wire Wire Line
+	7450 3250 7600 3250
+Connection ~ 7600 3250
+Wire Wire Line
+	7600 3250 7600 3200
+Wire Wire Line
+	7450 3550 7600 3550
+Connection ~ 7600 3550
+Wire Wire Line
+	7600 3550 7600 3600
+Text Notes 6750 2800 0    47   ~ 0
+temperature sensor\ni2c address: 0x48
+Text GLabel 6100 3550 0    60   BiDi ~ 0
+I2C_SDA
+Text GLabel 6100 3650 0    60   Output ~ 0
+I2C_SCL
 $EndSCHEMATC
