@@ -1220,4 +1220,8 @@ F 3 "" H 7850 1600 50  0000 C CNN
 $EndComp
 Text Notes 4950 1200 0    60   ~ 0
 external supply for stepper driver
+Text Notes 3600 2900 0    60   ~ 0
+input voltage up to 45 V
+Text Notes 4600 1300 0    60   ~ 0
+input voltage up to 45 V
 $EndSCHEMATC

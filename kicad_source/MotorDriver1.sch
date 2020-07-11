@@ -913,4 +913,6 @@ Wire Wire Line
 	6800 3150 8500 3150
 Wire Wire Line
 	8400 3000 8400 3250
+Text Notes 3450 1350 0    60   ~ 0
+input voltage up to 46 V
 $EndSCHEMATC

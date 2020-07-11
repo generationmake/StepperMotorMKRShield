@@ -65,4 +65,10 @@ Text Notes 2300 1700 0    60   ~ 0
 Bernhard Mayer
 Text Notes 3350 1700 0    60   ~ 0
 added expansion connector CN2 with all unused pins
+Text Notes 1350 1800 0    60   ~ 0
+2020-07-11
+Text Notes 2300 1800 0    60   ~ 0
+Bernhard Mayer
+Text Notes 3350 1800 0    60   ~ 0
+changed position of mounting holes for heat spreader
 $EndSCHEMATC
