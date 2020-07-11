@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
-Title "StepperMotorFeatherWing"
-Date "2020-07-11"
+Title "StepperMotorMKRShield"
+Date "2020-07-12"
 Rev "1.1"
 Comp "generationmake"
 Comment1 ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 "This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2."
 $EndDescr
 Text Notes 500  650  0    47   ~ 0
-Copyright generationmake 2020\nsee full project documentation at https://github.com/generationmake/StepperMotorFeatherWing
+Copyright generationmake 2020\nsee full project documentation at https://github.com/generationmake/StepperMotorMKRShield
 Text Notes 7000 6900 0    43   ~ 0
 You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). \nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY \nQUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2  for applicable conditions
 $Comp

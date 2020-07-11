@@ -4,9 +4,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
-Title "StepperMotorFeatherWing"
-Date "2020-07-11"
-Rev "1.1"
+Title "StepperMotorMKRShield"
+Date "2020-07-12"
+Rev "1.0"
 Comp "generationmake"
 Comment1 ""
 Comment2 ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 "This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2."
 $EndDescr
 Text Notes 500  650  0    47   ~ 0
-Copyright generationmake 2020\nsee full project documentation at https://github.com/generationmake/StepperMotorFeatherWing
+Copyright generationmake 2020\nsee full project documentation at https://github.com/generationmake/StepperMotorMKRShield
 Text Notes 7000 6900 0    43   ~ 0
 You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. (http://ohwr.org/cernohl). \nThis documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY \nQUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2  for applicable conditions
 Text Label 1800 4050 0    60   ~ 0
@@ -543,10 +543,10 @@ F 3 "" H 3100 4300 60  0000 C CNN
 $EndComp
 NoConn ~ 3700 3950
 $Comp
-L power-supply:+5V #PWR?
+L power-supply:+5V #PWR0105
 U 1 1 5F0BADF9
 P 3850 3950
-F 0 "#PWR?" H 3850 3800 50  0001 C CNN
+F 0 "#PWR0105" H 3850 3800 50  0001 C CNN
 F 1 "+5V" H 3865 4123 50  0000 C CNN
 F 2 "" H 3850 3950 50  0000 C CNN
 F 3 "" H 3850 3950 50  0000 C CNN
@@ -554,10 +554,10 @@ F 3 "" H 3850 3950 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power-supply:GND #PWR?
+L power-supply:GND #PWR0113
 U 1 1 5F0BB92C
 P 3800 5350
-F 0 "#PWR?" H 3800 5100 50  0001 C CNN
+F 0 "#PWR0113" H 3800 5100 50  0001 C CNN
 F 1 "GND" H 3800 5200 50  0000 C CNN
 F 2 "" H 3800 5350 50  0000 C CNN
 F 3 "" H 3800 5350 50  0000 C CNN

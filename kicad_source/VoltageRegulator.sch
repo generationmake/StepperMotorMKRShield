@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
-Title "StepperMotorFeatherWing"
-Date "2020-07-11"
+Title "StepperMotorMKRShield"
+Date "2020-07-12"
 Rev "1.1"
 Comp "generationmake"
 Comment1 ""
