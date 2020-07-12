@@ -1,64 +1,78 @@
-14184979105728
-L_power
-Sumida-0624CDMCCDS
-
-Sumida SMD Power Inductor 0624CDMCC/DS
-0
-2
-2
-L_power
-WE-HCF_2818
+17334892051314
+MODULE_compute
+ADAFRUIT_FEATHER_HOLES
 
 
 0
-3
-3
-L_power
-WE-LHMI40xx
+28
+28
+MODULE_compute
+ARDUINO
+2
 
-WE-LHMI SMD Power Inductor
 0
+32
+32
+MODULE_compute
+ARDUINO_ISP
 2
-2
-L_power
-WE-LHMI50xx
 
-WE-LHMI SMD Power Inductor
 0
+38
+38
+MODULE_compute
+ARDUINO_ISP_TOP
 2
-2
-L_power
-WE-LHMI70xx
 
-WE-LHMI SMD Power Inductor
 0
-2
-2
-L_power
-WE-LHMI80xx
-
-WE-LHMI SMD Power Inductor
-0
-2
-2
-L_power
-WE-LQFS-4828
+38
+38
+MODULE_compute
+ARDUINO_MKR
 
 
 0
-2
-2
-L_power
-WE-TPC38xx
-WE-TPC38xx
-WE-TPC38xx
+28
+28
+MODULE_compute
+ARDUINO_MKR_BASEBOARD
+
+
 0
-2
-2
-L_power
-WE-TPC48xx
-WE-TPC48xx
-WE-TPC48xx
+28
+28
+MODULE_compute
+ARDUINO_MKR_HOLES
+
+
 0
-2
-2
+28
+28
+MODULE_compute
+ARDUINO_NANO_33
+
+
+0
+30
+30
+MODULE_compute
+ESP-WROOM-02
+
+
+0
+19
+19
+MODULE_compute
+ESP32-WROOM-32
+
+
+0
+39
+39
+MODULE_compute
+come-type6-basic
+
+
+0
+450
+450
