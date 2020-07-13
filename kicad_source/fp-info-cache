@@ -1,435 +1,78 @@
-97438324877065
-capacitors
-C_0201
-Capacitor SMD 0201, reflow soldering, AVX (see smccp.pdf)
-capacitor 0201
-0
-2
-2
-capacitors
-C_0402
-Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)
-capacitor 0402
-0
-2
-2
-capacitors
-C_0603
-Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)
-capacitor 0603
-0
-2
-2
-capacitors
-C_0603_HandSoldering
-Capacitor SMD 0603, hand soldering
-capacitor 0603
-0
-2
-2
-capacitors
-C_0805
-Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)
-capacitor 0805
-0
-2
-2
-capacitors
-C_0805_HandSoldering
-Capacitor SMD 0805, hand soldering
-capacitor 0805
-0
-2
-2
-capacitors
-C_1206
-Capacitor SMD 1206, reflow soldering, AVX (see smccp.pdf)
-capacitor 1206
-0
-2
-2
-capacitors
-C_1206_HandSoldering
-Capacitor SMD 1206, hand soldering
-capacitor 1206
-0
-2
-2
-capacitors
-C_1210
-Capacitor SMD 1210, reflow soldering, AVX (see smccp.pdf)
-capacitor 1210
-0
-2
-2
-capacitors
-C_1210_HandSoldering
-Capacitor SMD 1210, hand soldering
-capacitor 1210
-0
-2
-2
-capacitors
-C_1812
-Capacitor SMD 1812, reflow soldering, AVX (see smccp.pdf)
-capacitor 1812
-0
-2
-2
-capacitors
-C_1812_HandSoldering
-Capacitor SMD 1812, hand soldering
-capacitor 1812
-0
-2
-2
-capacitors
-C_1825
-Capacitor SMD 1825, reflow soldering, AVX (see smccp.pdf)
-capacitor 1825
-0
-2
-2
-capacitors
-C_1825_HandSoldering
-Capacitor SMD 1825, hand soldering
-capacitor 1825
-0
-2
-2
-capacitors
-C_2220
-Capacitor SMD 2220, reflow soldering, AVX (see smccp.pdf)
-capacitor 2220
-0
-2
-2
-capacitors
-C_2220_HandSoldering
-Capacitor SMD 2220, hand soldering
-capacitor 2220
-0
-2
-2
-capacitors
-C_2225
-Capacitor SMD 2225, reflow soldering, AVX (see smccp.pdf)
-capacitor 2225
-0
-2
-2
-capacitors
-C_2225_HandSoldering
-Capacitor SMD 2225, hand soldering
-capacitor 2225
-0
-2
-2
-capacitors
-C_elec_THT_16x25_RM7.5
+17334892051314
+MODULE_compute
+ADAFRUIT_FEATHER_HOLES
 
 
 0
+28
+28
+MODULE_compute
+ARDUINO
 2
-2
-capacitors
-TantalC_SizeA_EIA-3216_HandSoldering
-Tantal Cap. , Size A, EIA-3216, Hand Soldering,
-Tantal Cap. , Size A, EIA-3216, Hand Soldering,
-0
-2
-2
-capacitors
-TantalC_SizeA_EIA-3216_Reflow
-Tantal Cap. , Size A, EIA-3216, Reflow
-Tantal Capacitor Size-A EIA-3216 reflow
-0
-2
-2
-capacitors
-TantalC_SizeA_EIA-3216_Wave
-Tantal Cap. , Size A, EIA-3216, Wave,
-Tantal Cap. , Size A, EIA-3216, Wave,
-0
-2
-2
-capacitors
-TantalC_SizeB_EIA-3528_HandSoldering
-Tantal Cap. , Size B, EIA-3528, Hand Soldering,
-Tantal Cap. , Size B, EIA-3528, Hand Soldering,
-0
-2
-2
-capacitors
-TantalC_SizeB_EIA-3528_Reflow
-Tantal Cap. , Size B, EIA-3528, Reflow
-Tantal Capacitor Size-B EIA-3528 Reflow
-0
-2
-2
-capacitors
-TantalC_SizeB_EIA-3528_Wave
-Tantal Cap. , Size B, EIA-3528, Wave,
-Tantal Cap. , Size B, EIA-3528, Wave,
-0
-2
-2
-capacitors
-TantalC_SizeC_EIA-6032_HandSoldering
-Tantal Cap. , Size C, EIA-6032, Hand Soldering,
-Tantal Cap. , Size C, EIA-6032, Hand Soldering,
-0
-2
-2
-capacitors
-TantalC_SizeC_EIA-6032_Reflow
-Tantal Cap. , Size C, EIA-6032, Reflow
-Tantal Capacitor Size-C EIA-6032 Reflow
-0
-2
-2
-capacitors
-TantalC_SizeC_EIA-6032_Wave
-Tantal Cap. , Size C, EIA-6032, Wave,
-Tantal Cap. , Size C, EIA-6032, Wave,
-0
-2
-2
-capacitors
-TantalC_SizeD_EIA-7343_HandSoldering
-Tantal Cap. , Size D, EIA-7343, Hand Soldering,
-Tantal Cap. , Size D, EIA-7343, Hand Soldering,
-0
-2
-2
-capacitors
-TantalC_SizeD_EIA-7343_Reflow
-Tantal Cap. , Size D, EIA-7343, Reflow
-Tantal Capacitor Size-D EIA-7343 Reflow
-0
-2
-2
-capacitors
-TantalC_SizeD_EIA-7343_Wave
-Tantal Cap. , Size D, EIA-7343, Wave,
-Tantal Cap. , Size D, EIA-7343, Wave,
-0
-2
-2
-capacitors
-TantalC_SizeE_EIA-7360_HandSoldering
-Tantal Cap. , Size E, EIA-7360, Hand Soldering,
-Tantal Cap. , Size E, EIA-7360, Hand Soldering,
-0
-2
-2
-capacitors
-TantalC_SizeE_EIA-7360_Reflow
-Tantal Cap. , Size E, EIA-7360, Reflow,
-Tantal Capacitor Size-E EIA-7360 Reflow
-0
-2
-2
-capacitors
-TantalC_SizeE_EIA-7360_Wave
-Tantal Cap. , Size E, EIA-7360, Wave,
-Tantal Cap. , Size E, EIA-7360, Wave,
-0
-2
-2
-capacitors
-TantalC_SizeR_EIA-2012
-Tantal Cap. , Size C, EIA-2012
 
 0
+32
+32
+MODULE_compute
+ARDUINO_ISP
 2
-2
-capacitors
-TantalC_SizeS_EIA-3216
-Tantal Cap. , Size S, EIA-3216, Hand Soldering
 
 0
+38
+38
+MODULE_compute
+ARDUINO_ISP_TOP
 2
-2
-capacitors
-TantalC_SizeT_EIA-3528
-TantalC_SizeT_EIA-3528
 
 0
-2
-2
-capacitors
-TantalC_SizeU_EIA-6032
-TantalC_SizeU_EIA-6032
+38
+38
+MODULE_compute
+ARDUINO_MKR
+
 
 0
-2
-2
-capacitors
-TantalC_SizeV_EIA-7343
-TantalC_SizeV_EIA-7343
+28
+28
+MODULE_compute
+ARDUINO_MKR_BASEBOARD
+
 
 0
-2
-2
-capacitors
-TantalC_SizeX_EIA-7343
-TantalC_SizeX_EIA-7343
+28
+28
+MODULE_compute
+ARDUINO_MKR_HOLES
+
 
 0
-2
-2
-capacitors
-c_elec_3x5.3
-SMT capacitor, aluminium electrolytic, 3x5.3
+28
+28
+MODULE_compute
+ARDUINO_NANO_33
+
 
 0
-2
-2
-capacitors
-c_elec_4x4.5
-SMT capacitor, aluminium electrolytic, 4x4.5
+30
+30
+MODULE_compute
+ESP-WROOM-02
+
 
 0
-2
-2
-capacitors
-c_elec_4x5.3
-SMT capacitor, aluminium electrolytic, 4x5.3
+19
+19
+MODULE_compute
+ESP32-WROOM-32
+
 
 0
-2
-2
-capacitors
-c_elec_4x5.7
-SMT capacitor, aluminium electrolytic, 4x5.7
+39
+39
+MODULE_compute
+come-type6-basic
+
 
 0
-2
-2
-capacitors
-c_elec_4x5.8
-SMT capacitor, aluminium electrolytic, 4x5.8
-
-0
-2
-2
-capacitors
-c_elec_5x4.5
-SMT capacitor, aluminium electrolytic, 5x4.5
-
-0
-2
-2
-capacitors
-c_elec_5x5.3
-SMT capacitor, aluminium electrolytic, 5x5.3
-
-0
-2
-2
-capacitors
-c_elec_5x5.7
-SMT capacitor, aluminium electrolytic, 5x5.7
-
-0
-2
-2
-capacitors
-c_elec_5x5.8
-SMT capacitor, aluminium electrolytic, 5x5.8
-
-0
-2
-2
-capacitors
-c_elec_6.3x4.5
-SMT capacitor, aluminium electrolytic, 6.3x4.5
-
-0
-2
-2
-capacitors
-c_elec_6.3x5.3
-SMT capacitor, aluminium electrolytic, 6.3x5.3
-
-0
-2
-2
-capacitors
-c_elec_6.3x5.7
-SMT capacitor, aluminium electrolytic, 6.3x5.7
-
-0
-2
-2
-capacitors
-c_elec_6.3x5.8
-SMT capacitor, aluminium electrolytic, 6.3x5.8
-
-0
-2
-2
-capacitors
-c_elec_6.3x7.7
-SMT capacitor, aluminium electrolytic, 6.3x7.7
-
-0
-2
-2
-capacitors
-c_elec_8x5.4
-SMT capacitor, aluminium electrolytic, 8x5.4
-
-0
-2
-2
-capacitors
-c_elec_8x6.5
-SMT capacitor, aluminium electrolytic, 8x6.5
-
-0
-2
-2
-capacitors
-c_elec_8x6.7
-SMT capacitor, aluminium electrolytic, 8x6.7
-
-0
-2
-2
-capacitors
-c_elec_8x10
-SMT capacitor, aluminium electrolytic, 8x10
-
-0
-2
-2
-capacitors
-c_elec_8x10.5
-SMT capacitor, aluminium electrolytic, 8x10.5
-
-0
-2
-2
-capacitors
-c_elec_10x7.7
-SMT capacitor, aluminium electrolytic, 10x7.7
-
-0
-2
-2
-capacitors
-c_elec_10x10
-SMT capacitor, aluminium electrolytic, 10x10
-
-0
-2
-2
-capacitors
-c_elec_10x10.5
-SMT capacitor, aluminium electrolytic, 10x10.5
-
-0
-2
-2
+450
+450
